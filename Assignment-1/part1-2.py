@@ -16,5 +16,3 @@ def pairsThatEqualSum(inputArray: list, targetSum: int) -> list:
                 ret_pairs.append((inputArray[i], inputArray[j]))
     
     return ret_pairs
-
-print(pairsThatEqualSum([1, 2, 3, 4, 5], 1))
