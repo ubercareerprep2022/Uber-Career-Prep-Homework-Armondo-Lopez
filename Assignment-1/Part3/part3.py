@@ -52,3 +52,13 @@ class Stack():
 if __name__ == "__main__":
     myStack = Stack()
     myStack.push(42)
+    print("Top of stack: ", end = "")
+    print(myStack.top())
+    print("Size of stack: ", end = "")
+    print(myStack.size())
+    popped_value = myStack.pop()
+    print("Popped value: ", end = "")
+    print(popped_value)
+    print("Size of stack: ", end = "")
+    print(myStack.size())
+    
